@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--alexa canaan, 2026-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Alexa Canaan — Responsible AI expert, designer, writer, researcher.">
+    <meta name="author" content="Alexa Canaan">
+    <title>alexa reese canaan — portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      html { font-size: 16px; }
+
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        min-height: 100vh;
+        background:
+          radial-gradient(50% 75.51% at 50% 70%, #FFD3C7 2%, rgba(255, 211, 200, 0.04) 100%),
+          radial-gradient(90% 60% at 94% 96%, #C8EAFF 0%, rgba(230, 245, 255, 0) 70%),
+          radial-gradient(44% 80% at 4% 94%, rgba(107, 110, 154, 0.8) 0%, rgba(225, 225, 234, 0) 100%),
+          #fffff3;
+        background-attachment: fixed;
+        color: #1a1a1a;
+      }
+
+      /* ── NAV ── */
+      nav {
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 1.6rem 2.8rem;
+      }
+      nav .wordmark {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #1a1a1a;
+      }
+      nav .links a {
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: lowercase;
+        text-decoration: none;
+        color: #1a1a1a;
+        margin-left: 1.6rem;
+        opacity: 0.6;
+        transition: opacity 0.2s;
+      }
+      nav .links a:hover { opacity: 1; }
+      nav .links a.active { opacity: 1; }
+
+      /* ── HERO ── */
+      .hero {
+        padding: 9rem 2.8rem 3rem;
+        max-width: 780px;
+      }
+      .hero-label {
+        font-size: 0.68rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        opacity: 0.45;
+        margin-bottom: 1rem;
+      }
+      .hero h1 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: clamp(2.2rem, 5vw, 3.4rem);
+        line-height: 1.15;
+        margin-bottom: 1.4rem;
+      }
+      .hero p {
+        font-size: 0.88rem;
+        line-height: 1.85;
+        opacity: 0.7;
+        max-width: 480px;
+      }
+
+      /* ── FILTER TABS ── */
+      .filter-row {
+        padding: 0 2.8rem;
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+        margin-bottom: 2.8rem;
+      }
+      .filter-btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 0.7rem;
+        letter-spacing: 0.08em;
+        text-transform: lowercase;
+        border: 1px solid rgba(0,0,0,0.18);
+        background: transparent;
+        padding: 0.38rem 0.9rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #1a1a1a;
+      }
+      .filter-btn:hover, .filter-btn.active {
+        background: rgba(0,0,0,0.06);
+        border-color: rgba(0,0,0,0.35);
+      }
+
+      /* ── GRID ── */
+      .grid {
+        padding: 0 2.8rem 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.6rem;
+      }
+
+      /* ── CARD ── */
+      .card {
+        background: rgba(255,255,251,0.55);
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 4px;
+        padding: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        backdrop-filter: blur(8px);
+        transition: transform 0.25s, box-shadow 0.25s, opacity 0.3s;
+        animation: fadeUp 0.5s ease both;
+        text-decoration: none;
+        color: inherit;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 36px rgba(0,0,0,0.07);
+      }
+      .card.hidden {
+        display: none;
+      }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(16px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .card-tag {
+        font-size: 0.62rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        opacity: 0.4;
+      }
+      .card h3 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.08rem;
+        line-height: 1.3;
+      }
+      .card p {
+        font-size: 0.78rem;
+        line-height: 1.75;
+        opacity: 0.62;
+        flex: 1;
+      }
+      .card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.4rem;
+      }
+      .card-year {
+        font-size: 0.65rem;
+        opacity: 0.35;
+        letter-spacing: 0.06em;
+      }
+      .card-arrow {
+        font-size: 0.75rem;
+        opacity: 0;
+        transform: translateX(-4px);
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .card:hover .card-arrow {
+        opacity: 0.5;
+        transform: translateX(0);
+      }
+
+      /* ── DIVIDER ── */
+      .divider {
+        width: 32px;
+        height: 1px;
+        background: rgba(0,0,0,0.15);
+        margin: 0 2.8rem 2.8rem;
+      }
+
+      /* ── FOOTER ── */
+      footer {
+        border-top: 1px solid rgba(0,0,0,0.07);
+        padding: 1.4rem 2.8rem;
+        font-size: 0.65rem;
+        opacity: 0.35;
+        letter-spacing: 0.06em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <a class="wordmark" href="index.html">alexa canaan</a>
+      <div class="links">
+        <a href="index.html">home</a>
+        <a href="portfolio.html" class="active">portfolio</a>
+        <a href="mailto:alexareese2398@gmail.com">email</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <p class="hero-label">selected work</p>
+      <h1>things i've<br>made & written</h1>
+      <p>a mix of software, research, and creative work — spanning responsible AI policy, interactive tools, and writing that lives somewhere between technical and human.</p>
+    </section>
+
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">all</button>
+      <button class="filter-btn" data-filter="software">software</button>
+      <button class="filter-btn" data-filter="design">design</button>
+      <button class="filter-btn" data-filter="writing">writing / research</button>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="grid" id="grid">
+
+      <!-- ── SOFTWARE ── -->
+      <a class="card" href="#" data-category="software" style="animation-delay:0.05s">
+        <span class="card-tag">software</span>
+        <h3>Project Title One</h3>
+        <p>A short description of what this project does, what problem it solves, and what makes it interesting. Keep it human and brief.</p>
+        <div class="card-footer">
+          <span class="card-year">2025</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-category="software" style="animation-delay:0.1s">
+        <span class="card-tag">software</span>
+        <h3>Project Title Two</h3>
+        <p>Another project description. Link this card to your GitHub repo or a live demo.</p>
+        <div class="card-footer">
+          <span class="card-year">2024</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <!-- ── DESIGN ── -->
+      <a class="card" href="#" data-category="design" style="animation-delay:0.15s">
+        <span class="card-tag">design</span>
+        <h3>Design Work Title</h3>
+        <p>A visual or interactive project — describe the medium, the intent, and what you were exploring creatively.</p>
+        <div class="card-footer">
+          <span class="card-year">2025</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <!-- ── WRITING / RESEARCH ── -->
+      <a class="card" href="#" data-category="writing" style="animation-delay:0.2s">
+        <span class="card-tag">writing / research</span>
+        <h3>Responsible AI &amp; Policy Paper</h3>
+        <p>A research or writing piece — policy analysis, long-form essay, or technical writing. Link to a PDF, blog, or publication.</p>
+        <div class="card-footer">
+          <span class="card-year">2023</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-category="writing" style="animation-delay:0.25s">
+        <span class="card-tag">writing / research</span>
+        <h3>Another Writing Piece</h3>
+        <p>A thesis, article, or essay. Add as many of these cards as you need — the grid fills naturally.</p>
+        <div class="card-footer">
+          <span class="card-year">2023</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-category="software" style="animation-delay:0.3s">
+        <span class="card-tag">software</span>
+        <h3>Another Software Project</h3>
+        <p>Description of a third software project. Swap in real titles, links, and years throughout.</p>
+        <div class="card-footer">
+          <span class="card-year">2022</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+    </div>
+
+    <footer>alexa canaan · washington, dc · 2026</footer>
+
+    <script>
+      // filter
+      const btns = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.card');
+
+      btns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          btns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const filter = btn.dataset.filter;
+          cards.forEach(card => {
+            const show = filter === 'all' || card.dataset.category === filter;
+            card.classList.toggle('hidden', !show);
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
