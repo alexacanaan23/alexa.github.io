@@ -236,31 +236,31 @@
     <div class="grid" id="grid">
 
       <!-- ── SOFTWARE ── -->
-      <a class="card" href="#" data-category="software" style="animation-delay:0.05s">
+      <a class="card" href="https://ai-registry-app.lovable.app" data-category="software" style="animation-delay:0.05s">
         <span class="card-tag">software</span>
-        <h3>Project Title One</h3>
-        <p>A short description of what this project does, what problem it solves, and what makes it interesting. Keep it human and brief.</p>
+        <h3>AI Registry App</h3>
+        <p>AI Registry App for EU AI Act Compliance</p>
         <div class="card-footer">
-          <span class="card-year">2025</span>
+          <span class="card-year">2026</span>
           <span class="card-arrow">→</span>
         </div>
       </a>
 
-      <a class="card" href="#" data-category="software" style="animation-delay:0.1s">
+      <a class="card" href="https://budget-buddy-ai-180.lovable.app" data-category="software" style="animation-delay:0.1s">
         <span class="card-tag">software</span>
-        <h3>Project Title Two</h3>
-        <p>Another project description. Link this card to your GitHub repo or a live demo.</p>
+        <h3>Budget Buddy</h3>
+        <p>My take on the Monarch app.</p>
         <div class="card-footer">
-          <span class="card-year">2024</span>
+          <span class="card-year">2026</span>
           <span class="card-arrow">→</span>
         </div>
       </a>
 
       <!-- ── DESIGN ── -->
-      <a class="card" href="#" data-category="design" style="animation-delay:0.15s">
+      <a class="card" href="https://travel-desk.lovable.app" data-category="design" style="animation-delay:0.15s">
         <span class="card-tag">design</span>
-        <h3>Design Work Title</h3>
-        <p>A visual or interactive project — describe the medium, the intent, and what you were exploring creatively.</p>
+        <h3>Travel Website</h3>
+        <p>Web design for my personal travel website</p>
         <div class="card-footer">
           <span class="card-year">2025</span>
           <span class="card-arrow">→</span>
