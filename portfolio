@@ -268,32 +268,61 @@
       </a>
 
       <!-- ── WRITING / RESEARCH ── -->
-      <a class="card" href="#" data-category="writing" style="animation-delay:0.2s">
+      <a class="card" href="https://www.science.org/doi/10.1126/science.ado9254" data-category="writing" style="animation-delay:0.2s">
         <span class="card-tag">writing / research</span>
-        <h3>Responsible AI &amp; Policy Paper</h3>
-        <p>A research or writing piece — policy analysis, long-form essay, or technical writing. Link to a PDF, blog, or publication.</p>
+        <h3>Can federal grid reforms solve the interconnection problem?/h3>
+        <p>Although fossil fuel–generated electricity production has historically vastly outweighed production from wind and solar, that is changing. However, in many countries, there is a substantial and growing waiting list for connecting new generation projects to the electrical grid. In the United States, for example, the number of applications has increased rapidly since 2010 to more than 3000 projects in the various interconnection queues as of 2021 (see the figure). The median time from interconnection request to interconnection agreement was 35 months in 2022, with wait times even longer for wind and solar (1). In response to this growing bottleneck, the US Federal Energy Regulatory Commission (FERC) issued two recent orders aimed at improving the generation interconnection process and long-term transmission grid planning. We argue that these are good first steps toward addressing the problems that have arisen over the past two decades, but crucial issues remain unaddressed.</p>
         <div class="card-footer">
-          <span class="card-year">2023</span>
+          <span class="card-year">July 2024</span>
           <span class="card-arrow">→</span>
         </div>
       </a>
 
-      <a class="card" href="#" data-category="writing" style="animation-delay:0.25s">
+      <a class="card" href="https://ceepr.mit.edu/workingpaper/research-commentary-ferc-order-2023-will-it-unplug-the-bottleneck/#:~:text=December%202023&text=In%20this%20commentary%2C%20we%20discuss,the%20number%20of%20speculative%20projects." data-category="writing" style="animation-delay:0.25s">
         <span class="card-tag">writing / research</span>
-        <h3>Another Writing Piece</h3>
-        <p>A thesis, article, or essay. Add as many of these cards as you need — the grid fills naturally.</p>
+        <h3>Research Commentary: FERC Order 2023: Will it Unplug the Bottleneck?</h3>
+        <p>The average wait for a new generation project to interconnect to the grid continues to rise, with the median time from interconnection request to commercial operation hitting five years for projects completed in 2022. Wait times are even longer for wind and solar projects. These delays significantly increase the costs and timelines associated with decarbonizing the grid. In this commentary, we discuss the policy landscape for reducing interconnection delays. FERC Order 2023 is a good first step towards addressing the problems that have arisen over the past two decades. It should reduce cost uncertainty to some extent and also reduce the number of speculative projects. Questions remain, however. Given the public good nature of interconnection and grid investments, how should the costs of network upgrades be shared among all grid users (on both the supply and demand side of the grid)? The current practice of shouldering all the costs on new generators connecting to the grid cannot be optimal. How can the interconnection process be made more of a forward-looking and proactive process that starts from a premise of achieving certain long-run goals of stability and reliability, while moving the United States on a path to a zero-carbon grid? Related to that question is the question of how best to link transmission planning with the process of connecting new projects to the grid.</p>
         <div class="card-footer">
-          <span class="card-year">2023</span>
+          <span class="card-year">December 2023</span>
           <span class="card-arrow">→</span>
         </div>
       </a>
 
-      <a class="card" href="#" data-category="software" style="animation-delay:0.3s">
-        <span class="card-tag">software</span>
-        <h3>Another Software Project</h3>
-        <p>Description of a third software project. Swap in real titles, links, and years throughout.</p>
+      <a class="card" href="https://computing.mit.edu/wp-content/uploads/2023/06/A-New-Way-Forward_-The-Internet-Data-Economy.pdf" data-category="writing" style="animation-delay:0.25s">
+        <span class="card-tag">writing / research</span>
+        <h3>A New Way Forward: The Internet & Data Economy</h3>
+        <p>In this paper, I argue for an existing technology that could be used in novel ways.
+Specifically, I argue for a restructuring of the internet and the data economy that is foundational
+to the internet. I believe that because data is valuable and providing data is labor, data citizens
+(general internet users) who provide data to technocrats (large internet platforms) should be
+explicitly compensated for their data by technocrats, rather than accepting the current
+software-as-a-service model where data citizens use platforms for free, but have to (sometimes
+unknowingly) relinquish large amounts of data to technocrats that they rely on to make the
+platforms function. Currently, we are in one of the worst positions, where both platforms and
+data citizens are losers in the market because it is not running efficiently. Making changes to the
+system benefits everyone, even if there is heavy initial investment into changing this system. I
+first give background on how this system came to be, without much organization at all and
+illustrate that these large platforms have become indispensable to our lives, and therefore the
+protections that extend to these platforms should have particular nuance. There are legal,
+economic, and political reasons for why this shift makes sense as well. Next, I evaluate the lump
+sum payment, pay-per-data point, and dividend models and how data citizens and technocrats are
+affected by these different structural changes. Finally, I conclud that the dividend model is the
+most feasible and easiest to implement for both data citizens and technocrats.</p>
         <div class="card-footer">
-          <span class="card-year">2022</span>
+          <span class="card-year">May 2023</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-category="writing" style="animation-delay:0.3s">
+        <span class="card-tag">writing / research</span>
+        <h3>2018 Return and Reintegration Key Highlights</h3>
+        <p>The International Organization for Migration. The International Organization for Migration’s (IOM) 2018 Return and Reintegration Key Highlights presents an overview of the Organization’s core initiatives to assist migrants who are unwilling or unable to stay in their host countries or in returning voluntarily to their countries of origin. This report simultaneously provides trends and figures on the number of migrants supported by IOM in both returning to and reintegrating into their communities, while indicating the leading host/transit countries and countries of origin over the past year.
+Now in its 41st year, IOM’s Assisted Voluntary Return and Reintegration (AVRR) programmes remain essential to the Organization’s mission. Since its implementation in 1979, AVRR programmes provided support to over 1.7 million people. Case in point, in 2018 alone, a total of 63,316 migrants were assisted by IOM in returning home through these initiatives.
+As shown in this report, the previous year witnessed an increase in assisted voluntary returns from regions outside the European Economic Area and Switzerland, particularly in West and Central Africa, as well as an increase in the caseload of migrants in vulnerable situations assisted worldwide.
+In response, IOM promoted sustainable reintegration of migrants through reintegration assistance and counselling (either pre-departure or upon arrival), as observed through 18,274 beneficiaries from 65 IOM country offices in host or transit countries and a further 41,461 beneficiaries from 64 IOM offices in countries of origin.</p>
+        <div class="card-footer">
+          <span class="card-year">September 2019</span>
           <span class="card-arrow">→</span>
         </div>
       </a>
